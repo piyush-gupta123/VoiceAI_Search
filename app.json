@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AI_Voice_Assistant",
+    "slug": "AI_Voice_Assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  },
+  "plugins": [
+    [
+      "@react-native-community/voice",
+      {
+        "microphonePermission": "CUSTOM: Allow $(PRODUCT_NAME) to access the microphone"
+      },
+      "@react-native-voice/voice",
+      {
+        "microphonePermission": "CUSTOM: Allow $(PRODUCT_NAME) to access the microphone"
+      }
+
+    ]
+  ]
+}
