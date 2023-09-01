@@ -20,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.piyushgupta.AI_Voice_Assistant"
     }
   },
   "plugins": [
@@ -33,7 +34,6 @@
       {
         "microphonePermission": "CUSTOM: Allow $(PRODUCT_NAME) to access the microphone"
       }
-
     ]
   ]
 }
